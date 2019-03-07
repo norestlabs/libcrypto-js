@@ -4,7 +4,7 @@ sjcl.codec.steemit = {
   MAINNET: {
     pubHeader: 0x0,
     privHeader: 0x80,
-    pubPrefix: 'STM'
+    pubPrefix: 'KWR'
   },
   TESTNET: {
     pubHeader: 0x0,
