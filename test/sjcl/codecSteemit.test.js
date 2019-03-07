@@ -39,7 +39,7 @@ new sjcl.test.TestCase("steemit signature core functionality", function(cb) {
    
   var keys = {
     sec: sjcl.codec.steemit.deserializePrivateKey("5JamTPvZyQsHf8c2pbN92F1gUY3sJkpW3ZJFzdmfbAJPAXT5aw3"),
-    pub: sjcl.codec.steemit.deserializePublicKey("STM5SKxjN1YdrFLgoPcp9KteUmNVdgE8DpTPC9sF6jbjVqP9d2Utq")
+    pub: sjcl.codec.steemit.deserializePublicKey("KWR5SKxjN1YdrFLgoPcp9KteUmNVdgE8DpTPC9sF6jbjVqP9d2Utq")
   };
  
   var fakehash = sjcl.hash.sha256.hash([1]);
@@ -59,7 +59,7 @@ new sjcl.test.TestCase("steemit key codec tests", function (cb) {
     password: "password",
     role: "active",
     sec: "5JamTPvZyQsHf8c2pbN92F1gUY3sJkpW3ZJFzdmfbAJPAXT5aw3",
-    pub: "STM5SKxjN1YdrFLgoPcp9KteUmNVdgE8DpTPC9sF6jbjVqP9d2Utq"
+    pub: "KWR5SKxjN1YdrFLgoPcp9KteUmNVdgE8DpTPC9sF6jbjVqP9d2Utq"
   }];
 
   for (var i = 0; i < testValues.length; i++) {
