@@ -1,5 +1,5 @@
 {
-  "name": "@nrl-demo/libcrypto",
+  "name": "@knowledgr/libcrypto",
   "version": "1.0.3",
   "description": "Common javascript cryptographic utilities. Based on sjcl.",
   "main": "lib/crypto.js",
