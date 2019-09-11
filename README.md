@@ -18,7 +18,7 @@ $ yarn install steem-crypto
 ## API
 
 ```
-> crypto = require('@nrl-demo/libcrypto');
+> crypto = require('@knowledgr/libcrypto');
 ```
 
 ### crypto.sha256(data)
